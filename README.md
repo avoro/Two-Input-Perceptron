@@ -13,6 +13,7 @@ p7 = [4;1] t7 = 1
 p8 = [4;2] t8 = 1
 
 Use MATLAB to test the resulting weight and bias values against the input vectors.
+
 train_network.m
 
 train_network([[1;4],[1;5],[2;4],[2;5],[3;1],[3;2],[4;1],[4;2]],[[0],[0],[0],[0],[1],[1],[1],[1]])
