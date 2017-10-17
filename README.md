@@ -20,4 +20,5 @@ train_network([[1;4],[1;5],[2;4],[2;5],[3;1],[3;2],[4;1],[4;2]],[[0],[0],[0],[0]
 Add input vectors to the training set to ensure that the decision boundary of any solution will not intersect one of the original input vectors (i.e., to ensure only robust solutions are found). Then retrain the network. Your method for adding the input vectors should be general purpose (not designed specifically for this problem).
 
 test_result.m
+
 test_result([[1;4],[1;5],[2;4],[2;5],[3;1],[3;2],[4;1],[4;2]],[[0],[0],[0],[0],[1],[1],[1],[1]])
